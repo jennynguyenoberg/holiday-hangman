@@ -1,0 +1,34 @@
+html {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3F3E4F;
+  margin: 0;
+}
+
+h1, 
+p {
+  color: #ffffff;
+  font-family: 'Parisienne', cursive;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+.holiday-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.holiday-card img {
+  width: 60%;
+}
